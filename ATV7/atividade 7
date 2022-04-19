@@ -1,0 +1,30 @@
+/*
+ * To change this license header, choose License Headers in Project Properties.
+ * To change this template file, choose Tools | Templates
+ * and open the template in the editor.
+ */
+package pkg11211102207_11211102064;
+
+import static java.time.Clock.system;
+
+/**
+ *
+ * @author Gabriel Ferri (11011102207@alunos.umc.br)
+ * Gabriel Monteiro (11211102064@alunos.umc.br)
+ */
+public static void main(String[] args) {
+    Scanner sc = new Scanner(System.in);
+        
+    String m1 = sc.nextLine();
+    
+    String m2 = sc.nextLine();
+        
+    Aluno gabriel = new Aluno(m1, m2);
+        
+    gabriel.calculaMedia();
+        
+    System.out.println(bruno.getM1()
+    System.out.println(Gabriel.getM1() + " " + bruno.getM2() + " " + Gabriel.getMedia());
+    }
+    
+}
